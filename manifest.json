@@ -6,6 +6,11 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
+      "exclude_matches": ["https://*.google.com/*",
+      "https://stackoverflow.com/*",
+      "https://csx.codesmith.io/*",
+      "https://github.com/*",
+      "https://codesmith.io/*"],
       "js": ["./main.js"]
     }
   ],
