@@ -31,9 +31,12 @@ Image wrapper structure
 
 // find inspirational quote api
 const quotesArray = [
-  'Doggo says: This looks interesting, but think about coding!', 
+  'This looks interesting, but what have you achieved today?', 
   'Woof! Is this going to help you live your best life?', 
-  'Bark! Think on your actions.'
+  'Ruh roh! Is this the best use of your time on earth?',
+  'Sure, this may be fun. But does it sbark joy?',
+  'How is this going to help you grrrrrow?',
+  'Maybe humans fail to value their time because they live so long :('
 ]
 const interval = 5000;
 const pageWidth = 1000;
@@ -118,7 +121,6 @@ function appendImage(dog) {
   
   // append image to webpage
   randomDiv.appendChild(inspoContainer);
-  console.log(randomDiv);
 }
 
 // fetch random dog image and append to image element
